@@ -179,12 +179,6 @@ android {
     }
 }
 
-kotlin {
-    compilerOptions {
-        freeCompilerArgs.add("-Xannotation-default-target=param-property")
-    }
-}
-
 androidComponents.onVariants { variant ->
     variant.sources.assets!!.addGeneratedSourceDirectory(archive) {
         project.objects.directoryProperty().apply {
