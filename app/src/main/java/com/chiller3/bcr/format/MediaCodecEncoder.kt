@@ -27,6 +27,7 @@ class MediaCodecEncoder(
 ) : Encoder(mediaFormat) {
     private val codec = createCodec(mediaFormat)
     private val bufferInfo = MediaCodec.BufferInfo()
+    private val inputSampleConsumer = container as? InputSampleConsumer
     private var trackIndex = -1
 
     override fun start() =
@@ -51,6 +52,7 @@ class MediaCodecEncoder(
                 // Temporarily change buffer limit to avoid overflow
                 val oldLimit = buffer.limit()
                 buffer.limit(buffer.position() + toCopy)
+                inputSampleConsumer?.consumeInputSamples(buffer.slice(), frameSize)
                 inputBuffer.put(buffer)
                 buffer.limit(oldLimit)
 
