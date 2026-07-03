@@ -7,6 +7,8 @@
     to update the actual links at the bottom of the file.
 -->
 
+### Unreleased
+
 ### Version 3.4
 
 * Update dynamic background color to match AOSP Settings ([PR #905 @chenxiaolong])
