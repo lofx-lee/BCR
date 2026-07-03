@@ -10,6 +10,7 @@
 ### Unreleased
 
 * Update dynamic background color to match AOSP Settings ([PR #905 @chenxiaolong])
+* Write STREAMINFO MD5 checksum when using the FLAC output format ([PR #906 @PatrykMis])
 
 ### Version 3.3
 
@@ -1330,3 +1331,4 @@ Non-user-facing changes:
 [PR #900 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/900
 [PR #901 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/901
 [PR #905 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/905
+[PR #906 @PatrykMis]: https://github.com/chenxiaolong/BCR/pull/906
