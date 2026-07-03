@@ -7,7 +7,7 @@
     to update the actual links at the bottom of the file.
 -->
 
-### Unreleased
+### Version 3.4
 
 * Update dynamic background color to match AOSP Settings ([PR #905 @chenxiaolong])
 * Write STREAMINFO MD5 checksum when using the FLAC output format ([PR #906 @PatrykMis])
