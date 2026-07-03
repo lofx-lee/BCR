@@ -9,6 +9,8 @@
 
 ### Unreleased
 
+* Update dynamic background color to match AOSP Settings ([PR #905 @chenxiaolong])
+
 ### Version 3.3
 
 * Make back navigation icon filled to match Material 3 Expressive styling in Android's system settings ([PR #900 @chenxiaolong])
@@ -1327,3 +1329,4 @@ Non-user-facing changes:
 [PR #894 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/894
 [PR #900 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/900
 [PR #901 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/901
+[PR #905 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/905
